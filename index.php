@@ -6,11 +6,11 @@
 <body>
 
 <form method="post" action="upload.php" enctype="multipart/form-data">
-	<input type="file" name="image[personal]">
+	personal <input type="file" name="image[personal]">
 	<br>
-	<input type="file" name="image[visa]">
+	visa <input type="file" name="image[visa]">
 	<br>
-	<input type="file" name="image[parent]">
+	parent <input type="file" name="image[parent]">
 	<br>
 	<input type="submit" name="" value="submit">
 </form>
